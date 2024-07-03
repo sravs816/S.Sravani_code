@@ -1,0 +1,101 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: feedback
+  steps:
+  - intent: feedback
+  - action: utter_feedback
+
+- story: for good
+  steps:
+  - intent: good
+  - action: utter_good
+
+- story: construction of riddle
+  steps:
+  - intent: riddle_construction
+  - action: utter_riddle_construction
+
+- story: types of riddles
+  steps:
+  - intent: riddle_types
+  - action: utter_riddle_types
+
+- story: about enigma riddle
+  steps:
+  - intent: enigma_riddles
+  - action: utter_enigma_riddles
+
+- story: about Conundrum Riddles
+  steps:
+  - intent: Conundrum_Riddles
+  - action: utter_Conundrum_Riddles
+
+- story: about Mathematical Riddles
+  steps:
+  - intent: Mathematical_Riddles
+  - action: utter_Mathematical_Riddles
+
+
+
+- story: for bad
+  steps: 
+  - intent: bad
+  - action: utter_bad
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  
+- story: ask about riddles
+  steps:
+  - intent: ask_riddle
+  - action: action_fetch_riddle
+  - intent: reveal
+  - action: action_reveal_riddle_answer
+
+
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: Thanking
+  steps: 
+  - intent: Thankyou
+  - action: utter_Thankyou
+
+- story: riddle definition
+  steps: 
+  - intent: riddle_def
+  - action: utter_riddle_def
+
+- story: riddle other names
+  steps: 
+  - intent: riddle_names
+  - action: utter_riddle_names
+
+- story: purpose of riddles
+  steps: 
+  - intent: riddle_purpose
+  - action: utter_riddle_purpose

@@ -1,0 +1,180 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: ask_riddle
+  examples: |
+    - riddle
+    - give me some riddles 
+    - i wish to play again
+    - i want to play again
+    - once more
+    - once again
+
+- intent: engima_riddles
+  examples: |
+    - what are enigma riddles?
+    - give me the definition of enigma riddle?
+
+- intent: Mathematical_Riddles
+  examples: |
+    - what are Mathematical Riddles?
+    - give me the definition of Mathematical Riddles?
+
+
+- intent: Conundrum_Riddles
+  examples: |
+    - what are Conundrum Riddles?
+    - give me the definition of Conundrum Riddles?
+    
+    
+- intent: feedback
+  examples: |
+    - giving feedback
+
+- intent: riddle_def
+  examples: |
+    - what is riddle?
+    - what do you mean by riddle?
+  
+- intent: riddle_names
+  examples: |
+    - how many names are there for a riddle?
+    - what are the names of riddle?
+    - other names of a riddle?
+
+- intent: riddle_purpose
+  examples: |
+    - why are the riddles are popular?
+    - why do we use riddles?
+    - what is the purpose of using riddle?
+
+- intent: riddle_construction
+  examples: |
+    - how do we construct a riddle?
+    - what are the ways to construct a riddle?
+    - building of riddles?
+    
+- intent: riddle_types
+  examples: |
+    - what are the types of riddles?
+    - types involved in riddle are?
+
+
+
+
+- intent: good
+  examples: |
+    - good
+    - average
+    - not bad
+    - nice 
+- intent: bad
+  examples: |
+    - bad
+    - worst
+    - badest
+
+
+- intent: reveal
+  examples: |
+    - reveal answer
+    - answer please
+    - give me the solution
+    - provide me answer
+    - find me solution
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you a  riddle bot?
+    - riddle bot?
+- intent: Thankyou
+  examples: | 
+    - Thank you
+    - Thanks
+    - Tq

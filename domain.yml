@@ -1,0 +1,87 @@
+version: "3.1"
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_riddle
+  - reveal
+  - feedback
+  - good
+  - bad
+  - Thankyou
+  - riddle_def
+  - riddle_names
+  - riddle_purpose
+  - riddle_construction
+  - riddle_types
+  - enigma_riddles
+  - Conundrum_Riddles
+  - Mathematical_Riddles
+
+responses:
+  utter_greet:
+  - text: hey! there I'm an "ENIGMA BOT" who shares you knowledge about "RIDDLES  note:- 1.Type riddle to start the riddle  bot" 2. Type answer to get the riddle answer 3. And never forget to feedback my riddle knowledge hehe!!
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: https://www.wikihow.com/images/thumb/2/26/Make-a-Person-Happy-Step-8-Version-3.jpg/v4-460px-Make-a-Person-Happy-Step-8-Version-3.jpg.webp
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_enigma_riddles:
+  - text: Riddles that use metaphorical or allegorical language, requiring creative thinking to solve.
+
+  utter_riddle_construction:
+  - text: 1.Choose a Subject, 2. Identify Key Characteristics, 3. Use Ambiguous Language, 4. Form a Question
+
+  utter_feedback:
+  - text: how was the test?
+
+  utter_good:
+  - text: hurry! thank you
+
+  utter_bad:
+  - text: ok! I'll improve myself
+
+  utter_riddle_types:
+  - text: 1.Enigma Riddles,2.Conundrum Riddles,3.Mathematical Riddles,4.Logic Riddles and 5.Visual Riddles
+
+  utter_Mathematical_Riddles:
+  - text: Riddles that involve numerical puzzles or logic based on math principles. Example- "I am an odd number. Take away one letter, and I become even. What number am I?" (Answer:-Seven)
+
+  utter_iamabot:
+  - text: "I'm a RIDDLE BOT."
+
+  utter_Thankyou: 
+  - text: you're welcome 
+  
+  utter_riddle_purpose:
+  - text: Riddles are puzzling questions or statements that require creative thinking to solve.
+
+  utter_riddle_def:
+  - text: A riddle is a puzzling question or statement that requires thought and creativity to answer, often involving wordplay or hidden meanings.
+
+  utter_riddle_names:
+  - text: The other names of riddles are Enigmas , Brain Teasers and puzzles. Example- "I speak without a mouth and hear without ears. What am I?" (Answer- An echo)
+  utter_Conundrum_Riddles:
+  - text: Riddles that rely on wordplay, puns, and double meanings, often humorous. Example-"What has keys but can't open locks?" (Answer- A piano)
+
+actions:
+  - action_fetch_riddle
+  - action_reveal_riddle_answer
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
