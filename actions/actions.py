@@ -13,7 +13,7 @@ class ActionFetchRiddle(Action):
             domain: dict) -> list:
 
         # Your API key here
-        api_key = ''
+        api_key = 'Mpj6rbZrYvlF3QU/3OpxGQ==SjEYWxXJNB3VORnM'
         api_url = 'https://api.api-ninjas.com/v1/riddles'
 
         headers = {
@@ -43,7 +43,7 @@ class ActionRevealRiddleAnswer(Action):
             tracker: Tracker,
             domain: dict) -> list:
         
-        api_key = ''
+        api_key = 'Mpj6rbZrYvlF3QU/3OpxGQ==SjEYWxXJNB3VORnM'
         api_url = 'https://api.api-ninjas.com/v1/riddles'
 
         headers = {
