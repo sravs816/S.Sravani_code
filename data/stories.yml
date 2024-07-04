@@ -29,10 +29,6 @@ stories:
   - intent: riddle_types
   - action: utter_riddle_types
 
-- story: about enigma riddle
-  steps:
-  - intent: enigma_riddles
-  - action: utter_enigma_riddles
 
 - story: about Conundrum Riddles
   steps:
@@ -51,7 +47,7 @@ stories:
   - intent: bad
   - action: utter_bad
 
-- story: sad path 1
+- story: sad 
   steps:
   - intent: greet
   - action: utter_greet
@@ -70,7 +66,7 @@ stories:
 
 
 
-- story: sad path 2
+- story: not feeling well
   steps:
   - intent: greet
   - action: utter_greet
@@ -99,3 +95,4 @@ stories:
   steps: 
   - intent: riddle_purpose
   - action: utter_riddle_purpose
+

@@ -1,4 +1,5 @@
 version: "3.1"
+
 intents:
   - greet
   - goodbye
@@ -39,8 +40,6 @@ responses:
   utter_goodbye:
   - text: "Bye"
 
-  utter_enigma_riddles:
-  - text: Riddles that use metaphorical or allegorical language, requiring creative thinking to solve.
 
   utter_riddle_construction:
   - text: 1.Choose a Subject, 2. Identify Key Characteristics, 3. Use Ambiguous Language, 4. Form a Question
@@ -55,13 +54,12 @@ responses:
   - text: ok! I'll improve myself
 
   utter_riddle_types:
-  - text: 1.Enigma Riddles,2.Conundrum Riddles,3.Mathematical Riddles,4.Logic Riddles and 5.Visual Riddles
-
+  - text: 1.Conundrum Riddles,2.Mathematical Riddles. etc 
   utter_Mathematical_Riddles:
   - text: Riddles that involve numerical puzzles or logic based on math principles. Example- "I am an odd number. Take away one letter, and I become even. What number am I?" (Answer:-Seven)
 
   utter_iamabot:
-  - text: "I'm a RIDDLE BOT."
+  - text: "I'm an ENIGMA BOT/ RIDDLE BOT."
 
   utter_Thankyou: 
   - text: you're welcome 
@@ -85,3 +83,6 @@ actions:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+
+  
