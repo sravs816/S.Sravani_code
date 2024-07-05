@@ -6,8 +6,15 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - intent: ask_riddle
+  - action: action_fetch_riddle
+  - intent: reveal
+  - action: action_reveal_riddle_answer
+
+- story: mood greating
+  steps:
   - intent: mood_great
-  - action: utter_happy
+  - action: utter_mood_great
 
 - story: feedback
   steps:
@@ -57,13 +64,6 @@ stories:
   - intent: affirm
   - action: utter_happy
   
-- story: ask about riddles
-  steps:
-  - intent: ask_riddle
-  - action: action_fetch_riddle
-  - intent: reveal
-  - action: action_reveal_riddle_answer
-
 
 
 - story: not feeling well
